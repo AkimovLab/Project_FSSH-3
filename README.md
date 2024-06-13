@@ -1,7 +1,3 @@
-# Project_FSSH-3
-
-The content of the included folders:
-
 Exact - exact calculations for reference, do them first;
    the results are used together with the TSH data, when plotting the results
 
@@ -22,3 +18,11 @@ Res3 - starting with a less fortunate initial guess of the J matrix J_{i,i+1} = 
 Res4 - same as 1, but using J that connects old and new populations
 
   This makes Figures 11-13 of the manuscript
+
+Res5 - same as 1, but with different ways of rescaling velocities upon the frustrated hops
+  This is to address Reviewer's 1 concern
+
+
+Res6 - the Hamiltonian with two pair-crossinngs, initialization on the top state, Figure 14
+
+Res7 - same as Res6, but the initialization is on states 3 and 1 as a superposition, Figure 15
